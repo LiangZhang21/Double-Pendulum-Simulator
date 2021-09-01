@@ -4,7 +4,7 @@ def angle1_a(g, m1, m2, t1, t2, L1, L2, v1, v2):
 
     num1 = -g * (2 * m1 + m2) * math.sin(t1)
     num2 = -m2 * g * math.sin(t1 - 2 * t2)
-    num3 = -2 * math.sin(t1 - t2) 
+    num3 = -2 * math.sin(t1 - t2)
     num4 = v2 * v2 * L2 + v1 * v1 * L1 * math.cos(t1 - t2)
     num5 = L1 * (2 * m1 + m2 - m2 * math.cos(2 * t1 - 2 * t2))
 

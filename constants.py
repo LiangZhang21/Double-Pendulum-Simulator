@@ -8,13 +8,15 @@ X = int(WIDTH/2)
 Y = int(HEIGHT/4)
 
 length1 = 300
-length2 = 300
-mass1 = 35
-mass2 = 20
+length2 = 350
+mass1 = 60
+mass2 = 100
 angle1 = math.pi/2
-angle2 = math.pi/4
+angle2 = math.pi/2
 angle_v1 = 0
 angle_v2 = 0
 angle_a1 = 0
 angle_a2 = 0
-gravity = 2
+gravity = 4
+
+track = []
