@@ -8,8 +8,8 @@ X = int(WIDTH/2)
 Y = int(HEIGHT/4)
 
 length1 = 300
-length2 = 350
-mass1 = 60
+length2 = 310
+mass1 = 70
 mass2 = 100
 angle1 = math.pi/2
 angle2 = math.pi/2
